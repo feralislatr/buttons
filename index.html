@@ -1,0 +1,65 @@
+<!doctype html>
+<style>
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+.btn{
+	height: 40px;
+	width:100px;
+	border-radius: 4px;
+	display:inline-block;
+	text-align:center;
+	text-decoration: none;
+	vertical-align: top;
+	padding-top: 5px;
+	padding-bottom: 6px;
+	margin: 10px;
+	font-family: 'Lato', sans-serif;
+	font-size:100%;
+	color:#fff;
+	transition:.5s ease;
+
+}
+
+.btn:first-child{
+	margin-right: 200px;
+}
+
+#viewbtn{
+	background-color: #4A90E2;
+
+}
+
+
+
+#viewbtn:hover{
+	background-color: #335284;
+/*
+	padding-top:5px;
+	height: 75px;
+	overflow:hidden;
+	font-size: 110%;
+*/
+}
+
+#continuebtn{
+	background-color:#38aa5a;	
+}
+
+#continuebtn:hover{
+	background-color: #206133;
+}
+</style>
+<html>
+	
+	<body>
+
+		<a id="viewbtn" class="btn" href="#">
+			<span>View </br>Pipeline</span>
+		</a>
+
+		<a id="continuebtn" class="btn" href="#">
+			Deploy or </br> Abort
+		</a>
+
+	</body>
+</html>
